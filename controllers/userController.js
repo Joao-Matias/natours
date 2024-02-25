@@ -15,6 +15,8 @@ exports.getAllUsers = catchAsync(async (req, res, next) => {
   });
 });
 
+exports.updateMe = (req, res, next) => {};
+
 exports.getUser = (req, res) => {
   res.status(500).json({
     status: 'error',
